@@ -16,7 +16,7 @@
             -->
             <title>Contacts Form</title>
         </head>
-        <body>
+        <body style = "background: linear-gradient(90deg, rgba(236,236,237,1) 0%, rgba(164,167,168,1) 100%) no-repeat; background-size: 100vw; height: 100vw; width: 100vw;">
             
             <?php 
             // The filename of the currently executing script to be used
@@ -48,6 +48,17 @@
                 // First time visitor? If so, create the array
                 // Create the contacts array
                 $contactsArray = array();
+
+                $contactsArray = array( );
+                $contactsArray[0][0] ="Michael";
+                $contactsArray[0][1] ="Vineyard";
+                $contactsArray[0][2] ="555-555-5555";
+                $contactsArray[0][3] ="name@csp.edu";
+
+                $contactsArray[0][0] ="Joe";
+                $contactsArray[0][1] ="Schmoe";
+                $contactsArray[0][2] ="555-555-5555";
+                $contactsArray[0][3] ="joe@shmoe.com";
 
                 // Save this array as a serialized session variable
                 $_SESSION['serializedArray'] = urlencode(serialize($contactsArray));
@@ -122,7 +133,7 @@
                 <p>
                     <?php displaycontacts(); ?>
                 </p>
-
+                <div>
                 <form action="<?php $self ?>" method="POST" name="frmAdd">
 
                     <fieldset id="fieldsetAdd">
@@ -174,6 +185,6 @@
                         <input name="btnSubmit" type="submit" value="Delete" />
                     </fieldset>
                 </form>
-
+                </div>
         </body>
 </html>

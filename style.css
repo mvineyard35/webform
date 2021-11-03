@@ -1,59 +1,81 @@
 fieldset#fieldsetAdd {
-    border: #008000 solid 1px; /* forest green */
-    border-radius: 3px;
+    border: #1182F2 solid 3px;
+    border-bottom: #1182F2 solid 5px;
+    border-top: #1182F2 solid 3px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    width: 15vw;
+    min-width: 20em;
+    margin: auto;
     }
     fieldset#fieldsetAdd legend {
-    color: #008000; 
+    color: #1182F2; 
+    text-align: center;
     }
     fieldset#fieldsetAdd input[type="submit"] {
-    color: #000080; /* dark blue */
-    background: #cdffd8; /* light green */
+    color: #000408; 
+    background: #b5bfc2; 
     margin: .25em 0 0 0;
     height: 4em;
     display: block;
     border-radius: 5px;
+    margin: auto;
     }
     fieldset#fieldsetDelete {
-    border: #800000 solid 1px; /* dark red */
+    border: #800000 solid 3px;
+    border-bottom: #800000 solid 5px;
+    border-top: #800000 solid 3px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px; 
     border-radius: 3px;
+    width: 15vw;
+    text-align: center;
+    margin: auto;
+    min-width: 20em;
     }
     Array, Sessions,  Forms 
     fieldset#fieldsetDelete legend {
     color: #800000;
     }
     fieldset#fieldsetDelete input[type="submit"] {
-    color: #800000; /* dark red */
-    background: #ffe0e3; /* light red */
+    color: #800000; 
+    background: #ffe0e3; 
     border: #800000 solid 1px;
     height: 4em;
-    display: block;
     border-radius: 5px;
-    float: left;
+    margin: auto;
     }
     table {
-    width: 70%;
-    margin: .5em;
+    width: 70vw;
+    margin: auto;
     border-collapse: collapse;
+
     }
     table, 
     td {
-    border: 1px solid #008000; 
+    border: #1182F2 solid 1px;
+    border-bottom: #1182F2 solid 3px;
+    border-top: #1182F2 solid 1px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px; 
     padding: .25em;
     }
     th {
-    background: #008000;
-    color: white;
+    background: #1182F2;
+    color: rgb(247, 234, 234);
     border: 2px white solid;
     padding: .5em;
     }
     tr:nth-child(even) {
-    background: #f0fcf3; /* very light green */
+    background: #a9c0f3; 
     }
     tr:nth-child(odd) {
-    background: #eee; /* very light gray */
+    background: rgb(156, 165, 185); 
     }
-    img {
-    float: right;
-    width: 40%;
-    margin: -4em 0 1em 0;
+    h1, h2 {
+        margin: auto;
+        text-align: center;
     }
