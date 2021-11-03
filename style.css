@@ -1,0 +1,59 @@
+fieldset#fieldsetAdd {
+    border: #008000 solid 1px; /* forest green */
+    border-radius: 3px;
+    }
+    fieldset#fieldsetAdd legend {
+    color: #008000; 
+    }
+    fieldset#fieldsetAdd input[type="submit"] {
+    color: #000080; /* dark blue */
+    background: #cdffd8; /* light green */
+    margin: .25em 0 0 0;
+    height: 4em;
+    display: block;
+    border-radius: 5px;
+    }
+    fieldset#fieldsetDelete {
+    border: #800000 solid 1px; /* dark red */
+    border-radius: 3px;
+    }
+    Array, Sessions,  Forms 
+    fieldset#fieldsetDelete legend {
+    color: #800000;
+    }
+    fieldset#fieldsetDelete input[type="submit"] {
+    color: #800000; /* dark red */
+    background: #ffe0e3; /* light red */
+    border: #800000 solid 1px;
+    height: 4em;
+    display: block;
+    border-radius: 5px;
+    float: left;
+    }
+    table {
+    width: 70%;
+    margin: .5em;
+    border-collapse: collapse;
+    }
+    table, 
+    td {
+    border: 1px solid #008000; 
+    padding: .25em;
+    }
+    th {
+    background: #008000;
+    color: white;
+    border: 2px white solid;
+    padding: .5em;
+    }
+    tr:nth-child(even) {
+    background: #f0fcf3; /* very light green */
+    }
+    tr:nth-child(odd) {
+    background: #eee; /* very light gray */
+    }
+    img {
+    float: right;
+    width: 40%;
+    margin: -4em 0 1em 0;
+    }
