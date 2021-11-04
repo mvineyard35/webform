@@ -128,11 +128,13 @@
                 echo "</table>";
             } // end of displaycontacts()
             ?>
-
+            <img src = "Graphic/image.jpeg" />
             <h1>Contacts</h1>
                 <p>
                     <?php displaycontacts(); ?>
                 </p>
+
+                
                 <div>
                 <form action="<?php $self ?>" method="POST" name="frmAdd">
 

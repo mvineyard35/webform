@@ -79,3 +79,10 @@ fieldset#fieldsetAdd {
         margin: auto;
         text-align: center;
     }
+    img {
+        height :20em;
+        min-height: 20em;
+        margin: auto;
+        border: 1px solid white;
+        border-radius: 150px;
+    }
